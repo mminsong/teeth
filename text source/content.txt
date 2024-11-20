@@ -1,0 +1,118 @@
+home
+
+about me
+
+skills
+
+portfolio
+
+
+문화트렌드를 이끄는 / 구름아래 소극장
+
+마음속의 원더랜드 / 브이더블유
+
+프라이빗 이동 서비스 / 무브
+
+고객가치를 창출하는 기술선도기업 / 현대로템
+
+
+UX/UI Design & Web Publishing
+
+신입 웹 퍼블리셔 김명희입니다
+
+
+성실함과 우직함으로 끊임없이 배우고 발전하겠습니다.
+
+PROFILE
+
+name / 김명희
+
+phone / 010.1234.5678
+
+e-mail / designdigit@naver.com
+
+github / https://github.com/designdigit
+
+
+2020.02 / 선진대학교 디지털미디어학과 졸업
+
+2018.03 / 선진대학교 디지털미디어학과 편입
+
+2015.03 / 선진대학교 디지털미디어학과 입학
+
+
+skills
+
+01
+
+ReactJS & JSP
+
+React를 활용한 사용자 인터페이스 구현 및 Java 웹 애플리케이션 구현
+
+EcmaScript 2022 기반 Native JavaScript 구현 JSX, JavaScript 확장 XML 작성 외부 플러그인 활용 및 구현 및 기본 include와 제어문 작성
+
+
+02
+
+JavaScript
+
+jQuery 플러그인 활용 및 구현
+
+외부 API 구현(Google Map, SwiperJS)
+
+
+03
+
+HTML & CSS & SASS
+
+HTML5 DTD 문법 준수 및 웹 접근성을 높인 Semantic Page 작성
+
+IR 기법을 이용한 스타일 구현, 모바일 스타일 구현, 전처리 기능을 CSS 프로그래밍 구현
+
+
+04
+
+SCS & UI Prototype
+
+GitHub를 활용한 Git 시스템 협업 및 Figma를 이용한 사용자 가이드 작성
+
+
+사용자가 사이트를 더욱 편하게 사용할 수 있도록 리뉴얼 작업을 하였습니다.
+
+구름아래 소극장 사이트 리뉴얼
+
+제작기간 4주
+
+HTML + CSS + jQuery + Figma
+
+사이트 바로가기
+
+디자인 가이드 바로가기
+
+
+브이더블유 사이트 리뉴얼
+
+제작기간 4주
+
+HTML + CSS + JavaScript + Figma
+
+
+무브 사이트 리뉴얼
+
+제작기간 4주
+
+HTML + CSS + jQuery + Figma
+
+
+현대로템 사이트 리뉴얼
+
+제작기간 4주
+
+HTML + CSS + jQuery + Figma
+
+
+KAIST HOLDINGS 사이트 리뉴얼
+
+제작기간 4주
+
+HTML + CSS + JavaScript + Figma
