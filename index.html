@@ -26,6 +26,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@terwanerik/scrolltrigger@1.0.5/dist/ScrollTrigger.min.js"></script>
     <script src="js/main.js"></script>
+    <script 
+    src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=soi3owqsyo" 
+    defer>
+  </script>
     <link rel="shortcut icon" type="image/x-icon" href="images/teeth.png" />
   </head>
 
@@ -312,6 +316,18 @@
                   <p style="font-size: 20px">경기도 시흥시 배곧5로 66-7</p>
                 </li>
               </ul>
+              <script>
+                // Initialize the map when the page loads
+                window.onload = function () {
+                  var mapOptions = {
+                    center: new naver.maps.LatLng(37.5665, 126.9780), // Coordinates for Seoul
+                    zoom: 10, // Zoom level
+                  };
+            
+                  // Create the map instance
+                  var map = new naver.maps.Map('map', mapOptions);
+                };
+              </script>
             </div>
           </div>
         </div>
