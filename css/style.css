@@ -752,16 +752,19 @@ body.fixed {
 }
 #page3 .box2{
 	width: 80%;
-	background-color:aliceblue;
 	margin: 2rem;
 	height: 100%;
 }
 #page3 .box2 .number{
-	margin: 10px;
+	margin-top: 30px;
 	font-size: 40px;
 	text-align: center;
 }
-
+#page3 .content2 .box2 .reservation{
+	display: flex;
+	width: 80%;
+	margin-top: 30px;
+}
 @media only screen and (max-width: 1200px) {
 	#page3 .inner {
 		padding: 120px 30px;
