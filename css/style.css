@@ -725,7 +725,7 @@ body.fixed {
 	font-weight: 500;
 }
 #page3 .work > ul > li {
-	padding-top: 120px;
+	padding-top: 2rem;
 	opacity: 0;
 	transform: translateY(50px);
 	transition: opacity 1s, transform 0.6s;
@@ -790,8 +790,7 @@ body.fixed {
 	#page3 .title {
 		font-size: 3.25em;
 	}
-	#page3 .work .info h4,
-	#page3 .work .info span {
+	#page3 .work .info  {
 		font-size: 1.75em;
 	}
 }
