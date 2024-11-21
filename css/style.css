@@ -754,6 +754,7 @@ body.fixed {
 		font-size: 1.75em;
 	}
 }
+
 @media only screen and (max-width: 1024px) {
 	#page3 .title {
 		line-height: 1.5;
