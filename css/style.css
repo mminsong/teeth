@@ -691,24 +691,35 @@ body.fixed {
 	justify-content: space-between;
 	padding: 30px 0;
 	width: 100%;
-	border: 1px solid black;
+	height: 100%;
 }
 #page3 .title.active {
 	opacity: 1;
 	transform: translateY(0);
 }
-#page3 .content{
+#page3 .content1{
 	width: 100%;
-	height: 100%;
+	background-color:aliceblue;
 }
-#page3 .content .title{
+#page3 .content2{
+	width: 100%;
+	background-color:skyblue;
+}
+#page3 .content3{
+	width: 100%;
+	background-color:azure;
+}
+#page3 .content1 .title
+#page3 .content2 .title
+#page3 .content3 .title{
 	text-align: center;
+	margin: 20px 0;
 }
 #page3 .work > ul > li {
 	opacity: 0;
 	transform: translateY(50px);
 	transition: opacity 1s, transform 0.6s;
-	background-color:aliceblue;
+	
 }
 #page3 .work > ul > li.active {
 	opacity: 1;
@@ -722,6 +733,18 @@ body.fixed {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	width: 100%;
+	text-align: center;
+	margin: 20px 0;
+}
+#page3 .content1 .work .underline,
+#page3 .content2 .call .underline,
+#page3 .content3 .map .underline{
+	display: block;
+    width: 80%;
+	height: 2px;
+    background-color: black;
+	margin-top: 20px;
+	margin-left:35px;
 }
 #page3 .box1, .box3{
 	margin: 2rem;
@@ -734,8 +757,9 @@ body.fixed {
 	height: 100%;
 }
 #page3 .box2 .number{
-	font-weight: bold;
-	margin: 1rem;
+	margin: 10px;
+	font-size: 40px;
+	text-align: center;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -746,7 +770,7 @@ body.fixed {
 		font-size: 3.25em;
 	}
 	#page3 .work .info  {
-		font-size: 1.75em;
+		font-size: 20px;
 	}
 }
 
