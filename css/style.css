@@ -407,7 +407,6 @@ body.fixed {
 	margin: 0 auto;
 	padding: 80px 0;
 	max-width: 1200px;
-	background-color: azure;
 
 }
 #page1 .inner::before {
@@ -771,7 +770,7 @@ body.fixed {
 }
 @media only screen and (max-width: 1200px) {
 	#page3 .inner {
-		padding: 120px 30px;
+		padding: 70px 30px;
 	}
 	#page3 .title {
 		font-size: 3.25em;
@@ -816,61 +815,41 @@ body.fixed {
 }
 
 /* map */
+#map .mapbox {
+	position: relative;
+	margin: 0 auto;
+	padding: 40px 0;
+	max-width: 1200px;
+	line-height: 25px;
 
+}
 
-
-/*
 @media only screen and (max-width: 1200px) {
-	#map .inner {
-		padding: 120px 30px;
-	}
-	#map .title {
-		font-size: 3.25em;
-	}
-	#map .work .info h4,
-	#map .work .info span {
-		font-size: 1.75em;
+	#map .mapbox {
+		padding: 70px 30px;
+		letter-spacing: 0;
 	}
 }
 @media only screen and (max-width: 1024px) {
-	#map .title {
-		line-height: 1.5;
-		font-size: 2.5em;
-	}
-	#map .work > ul > li {
-		padding-top: 1rem;
-	}
+	
 }
 @media only screen and (max-width: 720px) {
-	#map .title {
-		font-size: 2em;
-	}
-	#map .work > ul > li {
-		padding-top: 1rem;
-	}
-	#map .work .info {
-		padding-top: 25px;
-	}
-	#map .work .info .link {
-		padding-top: 30px;
-	}
+	
 }
 @media only screen and (max-width: 520px) {
-	#map .title {
-		font-size: 1.8em;
-	}
-	#map .title br {
-		display: none;
-	}
-	#map .work .info .link li {
-		display: block;
-		margin-left: 0;
-		margin-top: 10px;
-	}
+	
 }
-*/
+
 
 /* footer */
+#footer .inner {
+	position: relative;
+	margin: 0 auto;
+	padding: 40px 0;
+	max-width: 1200px;
+	line-height: 25px;
+
+}
 @media only screen and (max-width: 1200px) {
 	#footer .inner {
 		padding: 70px 30px;
@@ -878,38 +857,11 @@ body.fixed {
 	}
 }
 @media only screen and (max-width: 1024px) {
-	#footer .title {
-		line-height: 1.5;
-		font-size: 2.5em;
-	}
-	#footer .work > ul > li {
-		padding-top: 1rem;
-	}
+	
 }
 @media only screen and (max-width: 720px) {
-	#footer .title {
-		font-size: 2em;
-	}
-	#footer .work > ul > li {
-		padding-top: 1rem;
-	}
-	#footer .work .info {
-		padding-top: 25px;
-	}
-	#footer .work .info .link {
-		padding-top: 30px;
-	}
+	
 }
 @media only screen and (max-width: 520px) {
-	#footer .title {
-		font-size: 1.8em;
-	}
-	#footer .title br {
-		display: none;
-	}
-	#footer .work .info .link li {
-		display: block;
-		margin-left: 0;
-		margin-top: 10px;
-	}
+	
 }
