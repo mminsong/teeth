@@ -817,6 +817,9 @@ body.fixed {
 
 /* map */
 
+
+
+/*
 @media only screen and (max-width: 1200px) {
 	#map .inner {
 		padding: 120px 30px;
@@ -865,3 +868,4 @@ body.fixed {
 		margin-top: 10px;
 	}
 }
+*/
