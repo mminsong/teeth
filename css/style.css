@@ -708,6 +708,7 @@ body.fixed {
 	opacity: 0;
 	transform: translateY(50px);
 	transition: opacity 1s, transform 0.6s;
+	background-color:aliceblue;
 }
 #page3 .work > ul > li.active {
 	opacity: 1;
