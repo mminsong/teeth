@@ -138,6 +138,7 @@
 					<li>
 						<em class="num">01</em>
 						<h4>임플란트</h4>
+						<img src="images/implant.jpg" style="height: 200px; width: 300px;"/>
 						<span>충치 / 풍치 치료 후 발치 이후에 사용하는 방법</span>
 						<p>
 							[건강한 미소를 위한 임플란트 기술의 진화]<br />
@@ -148,6 +149,7 @@
 					<li>
 						<em class="num">02</em>
 						<h4>투명교정</h4>
+						<img src="images/correct.png" style="height: 200px; width: 300px;"/>
 						<span>치아 교정을 위해 눈에 잘 띄지 않는 투명한 교정 장치를 사용하는 기술로,
 							<br />심미성과 편안함을 동시에 제공하는 현대적인 교정 치료</span>
 						<p>
@@ -159,6 +161,7 @@
 					<li>
 						<em class="num">03</em>
 						<h4>심미보철</h4>
+						<img src="images/prosthetics.jpg" style="height: 200px; width: 300px;"/>
 						<span>손상된 치아나 결손 치아를 복원하면서도 자연스러운 외관을 유지하도록 디자인된 보철 치료로,
 							<br />기능성과 심미성을 동시에 만족시키는 치과 치료
 						</span>
@@ -172,6 +175,7 @@
 					<li>
 						<em class="num">04</em>
 						<h4>치아미백</h4>
+						<img src="images/whitening.jpg" style="height: 200px; width: 300px;"/>
 						<span>변색된 치아를 밝고 깨끗하게 복원하는 비침습적 치료로, <br />
 							환자의 미소를 더욱 환하고 자신감 있게 만들어 주는 심미적 치과 치료</span>
 						<p>
@@ -182,6 +186,7 @@
 					<li>
 						<em class="num">05</em>
 						<h4>무삭제 라미네이트</h4>
+						<img src="images/rami.jpg" style="height: 200px; width: 300px;"/>
 						<span>치아를 최소한으로 손상시키거나 아예 손상시키지 않고 얇은 세라믹 레이어를 부착하여 <br />
 							치아의 형태와 색상을 개선하는 심미적 치과 치료로, 자연스러움과 보존성을 중시하는 최신 기술
 						</span>
@@ -194,6 +199,7 @@
 					<li>
 						<em class="num">06</em>
 						<h4>턱관절치료</h4>
+						<img src="images/gow.png" style="height: 200px; width: 300px;"/>
 						<span>턱관절 장애로 인한 통증, 기능 장애, 혹은 불편함을 완화하고 정상적인 턱의 움직임을 회복시키는 치료로, <br />
 							교합 조정, 물리치료, 장치 요법 등을 포함한 포괄적인 치과 치료
 						</span>
@@ -206,6 +212,7 @@
 					<li>
 						<em class="num">07</em>
 						<h4>보톡스</h4>
+						<img src="images/botox.png" style="height: 200px; width: 300px;"/>
 						<span>근육의 움직임을 조절하여 주름을 완화하거나, <br />
 							턱관절 장애, 이갈이, 사각턱 교정 등 기능적 문제와 심미적 개선을 동시에 목표로 하는 비침습적 치료
 						</span>
@@ -218,6 +225,7 @@
 					<li>
 						<em class="num">08</em>
 						<h4>신경치료</h4>
+						<img src="images/treatement.png" style="height: 200px; width: 300px;"/>
 						<span>치아의 내부에 있는 신경이 감염되거나 손상된 경우, 이를 치료하여 치아를 보존하고 통증을 완화하는 치료입니다. <br />
 							주로 근관 치료라고도 하며, 치아의 기능과 구조를 복원하는 중요한 과정
 						</span>
@@ -231,6 +239,7 @@
 					<li>
 						<em class="num">09</em>
 						<h4>소아진료</h4>
+						<img src="images/implant.jpg" style="height: 200px; width: 300px;"/>
 						<span>어린이의 치아와 구강 건강을 관리하는 전문 치료로, <br />
 							예방적인 진료부터 치료까지 아동의 연령과 발달 상태에 맞는 맞춤형 케어를 제공
 						</span>
@@ -294,13 +303,13 @@
 	<section id="map">
 		<div class="mapbox">
 			<div class="title" style="font-size: 25px; font-weight: bold;">찾아오시는 길</div>
-			<div class="box" style="height: 500px; width: 400px;"></div>
+			<div class="box" style="width: 70%; height: 300px; margin:auto"></div>
 		
 		<script type="text/javascript"
 			src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=soi3owqsyo"></script>
 			<script id="code">
 				var map = new naver.maps.Map('map', {
-					center: new naver.maps.LatLng(37.382975, 126.734883), //지도의 초기 중심 좌표
+					center: new naver.maps.LatLng(37.3820772, 126.7346576), //지도의 초기 중심 좌표
 					zoom: 17, //지도의 초기 줌 레벨
 					minZoom: 8, //지도의 최소 줌 레벨
 					zoomControl: true, //줌 컨트롤의 표시 여부
@@ -308,7 +317,7 @@
 						position: naver.maps.Position.TOP_RIGHT
 				}});
 				var marker = new naver.maps.Marker({
-					position: new naver.maps.LatLng(37.382975, 126.734883),
+					position: new naver.maps.LatLng(37.3820772, 126.7346576),
 					map: map
 				});
 		</script>
