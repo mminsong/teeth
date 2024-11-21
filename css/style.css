@@ -3,6 +3,7 @@ body{
 	width: 90%;
 	margin:0 auto;
 	padding: 0;
+	overflow-x: hidden;
 }
 h1, h2, h3, h4, h5, h6, p, ul, ol, table, dl, dd {
 	margin: 0;
@@ -708,6 +709,8 @@ body.fixed {
 #page3 .content3{
 	width: 100%;
 	background-color:azure;
+	text-align: center;
+	vertical-align:  center;
 }
 #page3 .content1 .title
 #page3 .content2 .title
@@ -726,8 +729,7 @@ body.fixed {
 	transform: translateY(0);
 }
 #page3 .work .info {
-	padding-top: 1rem;
-	letter-spacing: -2px;
+	padding-top: 10px;
 }
 #page3 .inner .column .title {
 	flex-direction: row;
@@ -750,6 +752,9 @@ body.fixed {
 	margin: 2rem;
 	width: 80%;
 }
+#page3 .box1 .info{
+	font-size: 17px;
+}
 #page3 .box2{
 	width: 80%;
 	margin: 2rem;
@@ -760,10 +765,8 @@ body.fixed {
 	font-size: 40px;
 	text-align: center;
 }
-#page3 .content2 .box2 .reservation{
-	display: flex;
-	width: 80%;
-	margin-top: 30px;
+#page3 .box2 .text{
+	vertical-align: bottom;
 }
 @media only screen and (max-width: 1200px) {
 	#page3 .inner {
@@ -771,9 +774,6 @@ body.fixed {
 	}
 	#page3 .title {
 		font-size: 3.25em;
-	}
-	#page3 .work .info  {
-		font-size: 20px;
 	}
 }
 
@@ -815,6 +815,7 @@ body.fixed {
 }
 
 /* map */
+
 @media only screen and (max-width: 1200px) {
 	#map .inner {
 		padding: 120px 30px;
